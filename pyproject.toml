@@ -1,0 +1,17 @@
+[project]
+name = "robokof-flet-preview"
+version = "0.1.0"
+description = "Protótipo visual do RoboKOF em Flet"
+requires-python = ">=3.10"
+dependencies = [
+    "flet==0.85.3",
+]
+
+[tool.flet]
+org = "com.robokof"
+product = "RoboKOF"
+company = "RoboKOF"
+copyright = "RoboKOF"
+
+[tool.flet.app]
+path = "src"
